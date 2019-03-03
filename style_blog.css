@@ -1,0 +1,53 @@
+body
+{
+ /*font-family: 'Playfair Display', serif;*/
+ font-family: 'Merriweather', serif;
+ background-color: white;
+ text-align: center;
+ background-image: url('images/background.jpg');
+ background-repeat: no-repeat;
+ background-size: cover; 
+ height: 100vh;
+
+}
+
+h2{
+	font-size: 1.4em;
+	
+}
+
+.nga-blog-place{
+	background-color: rgb(255,255,255,0.7);
+	/*rgb permet d'avoir uniquement le background en transparence. Les images ne le seront pas*/
+	height: 90vh;
+
+}
+
+.nga-logo-place{
+	background-color: rgb(255,255,255,0.9);
+	/*height: 11vh;*/
+
+}
+
+.nga-logo{
+	width: 13%;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+.nga-colonne1,.nga-colonne2, .nga-colonne3{
+	width: 13%;
+	background-color: rgb(255,230,255,0.97);
+	/*border-width: 1px;
+	border-style:solid;
+	border-color: black;*/
+	height: 100%;
+}
+
+
+.pre-scrollable{
+	height: 660px;
+	max-height: 100%;
+	/*vh : visible height -> soit un pourcentage de la hauteur visible*/
+	overflow-y: scroll;
+}
